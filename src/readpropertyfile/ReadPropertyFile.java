@@ -21,7 +21,7 @@ public class ReadPropertyFile {
     public static void main(String args[]) {
         try {
             Properties pro = new Properties();
-            FileInputStream in = new FileInputStream("C:\\Users\\gaby\\Documents\\NetBeansProjects\\ReadPropertyFile\\src\\newfile");
+            FileInputStream in = new FileInputStream("brenda");
             pro.load(in);
             // getting values from property file
             String name = pro.getProperty("Name");
